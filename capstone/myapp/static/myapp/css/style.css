@@ -1,0 +1,29 @@
+* {
+  background-color: #f9fcf7;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #f6f6f6;
+}
+
+nav a {
+  background-color: #f6f6f6;
+  border: 3px solid #177245;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+nav a:last-child {
+  margin-left: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

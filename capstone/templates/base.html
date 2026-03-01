@@ -1,15 +1,21 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'myapp/css/style.css' %}" />
   </head>
   <body>
     <nav>
       <a href="{% url 'Landing Page' %}">Home</a>
       <a href="{% url 'About Page' %}">About</a>
     </nav>
+    <img
+      src="{% static 'myapp/images/hero-image.jpg' %}"
+      alt="A small plant in a jar filled with coins"
+    />
     {% block content %}{% endblock %}
   </body>
 </html>
