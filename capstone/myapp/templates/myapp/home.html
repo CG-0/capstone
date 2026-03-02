@@ -5,6 +5,11 @@
 
 <!-- Content -->
 {% block content %}
-<h1>SeedBank</h1>
-<p>Welcome to my project for WEB 3200!</p>
+<ul>
+  {% for s in seeds %}
+  <li>
+    <a href="{{ s.get_absolute_url }}">{{ s.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
 {% endblock %}

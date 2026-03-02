@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+<!-- Page Title -->
+{% block title %} Detail Page {% endblock %}
+
+<!-- Content -->
+{% block content %}
+<h1>{{ name }}</h1>
+<p><strong>Botanical Name:</strong>&nbsp;{{ botanical }}</p>
+<p><strong>Seed Type:</strong>&nbsp;{{ seed_type }}</p>
+<p><strong>Continent of Origin:</strong>&nbsp;{{ continent }}</p>
+<hr />
+<p><a href="{% url 'Landing Page' %}">Back to Main Page</a></p>
+{% endblock %}
