@@ -1,11 +1,21 @@
-name,botanical,seed_type,continent
-Hickory King Corn,Zea Mays,Heirloom,North America
-Celibrity Tomato,Solanum Lycopersicum 'Celebrity',Hybrid,North America
-Stargazer Lilies,Lilium Orientalis 'Stargazer',Hybrid,North America
-Moon & Star Watermelon,Citrullus Lanatus,Heirloom,North America
-Roma Tomato,Solanum Lycopersicum,Heirloom,North America
-Jalapeño,Capsicum Annuum,Open-Pollinated,North America
-Sweet Siberian Watermelon,Citrullus Lanatus var. Lanatus,Open-Pollinated,Europe
-Meyer Lemon Tree,Citrus × Meyeri,Hybrid,Asia
-Provider Bean,Phaseolus Vulgaris,Heirloom,North America
-Little Gem Lettuce,Lactuca Sativa,Heirloom,Europe
+name,botanical,seed_type,continent,use,donors,bio
+Hickory King Corn,Zea Mays,Heirloom,North America,Animal Feed,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Celibrity Tomato,Solanum Lycopersicum 'Celebrity',Hybrid,North America,Culinary,Jerry King,Donated seeds to several restaurants across the nation
+Stargazer Lilies,Lilium Orientalis 'Stargazer',Hybrid,North America,Ornamental,Renee Shepherd,Donates seeds to gardeners
+Moon & Star Watermelon,Citrullus Lanatus,Heirloom,North America,Culinary,Jerry King,Donated seeds to several restaurants across the nation
+Roma Tomato,Solanum Lycopersicum,Heirloom,North America,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Jalapeño,Capsicum Annuum,Open-Pollinated,North America,Culinary,Jerry King,Donated seeds to several restaurants across the nation
+Sweet Siberian Watermelon,Citrullus Lanatus var. Lanatus,Open-Pollinated,Europe,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses
+Meyer Lemon Tree,Citrus × Meyeri,Hybrid,Asia,Ornamental,Renee Shepherd,Donates seeds to gardeners
+Provider Bean,Phaseolus Vulgaris,Heirloom,North America,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Little Gem Lettuce,Lactuca Sativa,Heirloom,Europe,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Lion's Ear,Leonotis Leonurus,Heirloom,Africa,Medicinal,Larry Preston,Renown ethnobotanist specializing in medicinal plants
+Antonovka Apple,Malus Domestica var. Antonovka,Heirloom,Europe,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Black Bat Flower,Tacca Chantrieri,Open-Pollinated,Asia,Ornamental,Renee Shepherd,Donates seeds to gardeners
+White Bat Flower,Tacca Integrifolia,Open-Pollinated,Asia,Ornamental,Renee Shepherd,Donates seeds to gardeners
+Candyleaf,Stevia Rebaudiana,Open-Pollinated,South America,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Hybrid Pearl Millet,Cenchrus Americanus,Hybrid,Africa,Animal Feed,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Mango,Mangifera Indica,Open-Pollinated,Asia,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Candlenut,Aleurites Moluccanus,Open-Pollinated,Asia,Culinary,Jerry King,Donated seeds to several restaurants across the nation
+Jackfruit,Artocarpus Heterophyllus,Open-Pollinated,Asia,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
+Baby Corn,Zea Mays,Hybrid,North America,Culinary,Matt Jones,Known for donating seeds to farms and farmers for agricultural uses 
