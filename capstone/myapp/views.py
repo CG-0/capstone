@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse, HttpRequest
-from .models import Seed
+from django.http import HttpResponse, HttpRequest, HttpResponseRedirect
+from .forms import FeedbackForm
+from .models import Seed, Feedback
 
 # Create your views here.
 def landing_page_view(request):
@@ -30,3 +31,21 @@ def detail_view(request, slug):
     }
 
     return render(request, "myapp/detail.html", context)
+
+def feedback(request):
+    if request.method == 'POST':
+        form = FeedbackForm(request.POST)
+
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('/submission')
+        
+    else:
+        form = FeedbackForm()
+
+    return render(request, "myapp/feedback.html", {
+        "form": form,
+    })
+
+def submission(request):
+    return render(request, "myapp/submission.html")

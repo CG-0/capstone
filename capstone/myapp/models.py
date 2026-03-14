@@ -4,6 +4,13 @@ from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
 # Create your models here.
+class Feedback(models.Model):
+    first_name = models.CharField(max_length=100)
+    last_name = models.CharField(max_length=100)
+    email = models.EmailField(max_length=254)
+    subject = models.CharField(max_length=50)
+    message = models.TextField()
+
 class Use(models.Model):
     uses = models.CharField(max_length=50)
 

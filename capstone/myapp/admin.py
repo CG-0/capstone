@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Seed, DonorProfile, Donor, Use
+from .models import Seed, DonorProfile, Donor, Use, Feedback
 
 # Register your models here.
 class SeedAdmin(admin.ModelAdmin):
@@ -13,3 +13,4 @@ admin.site.register(Seed, SeedAdmin)
 admin.site.register(Use)
 admin.site.register(Donor)
 admin.site.register(DonorProfile)
+admin.site.register(Feedback)
